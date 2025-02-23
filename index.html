@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Bootstrap Grid Layout</title>
+        <!--css links-->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+
+    </head>
+    <body>
+        <!--example of grid-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="box"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="box"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="box"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg-1">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="box"></div>
+                </div>
+            </div>
+        </div>
+        <!--example of flex-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg">
+                    <div class="box"></div>
+                </div>
+            </div>
+        </div>
+        <!--both grid and flex-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg">
+                    <div class="box"></div>
+                </div>
+            </div>
+        </div>
+        <!--According to screen ratio-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-sm-3">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg col-sm-3 col-6">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg col-sm-3 col-6">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg col-sm-3">
+                    <div class="box"></div>
+                </div>
+            </div>
+        </div>
+        <!--nestable or not example-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 bg-dark">
+                    <div class="row">
+                        <div class="col-lg-6"><div class="box"></div></div>
+                        <div class="col-lg-6"><div class="box"></div></div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="box"></div>
+                </div>
+            </div>
+        </div>
+        <!--orderable or not example-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 bg-dark order-2">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg-5 order-1">
+                    <div class="box"></div>
+                </div>
+            </div>
+        </div>
+        <!--example of offset and justify-content-->
+        <div class="container">
+            <div class="row">
+                <div class=" offset-lg-3 col-lg-2">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-5">
+                    <div class="box"></div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box"></div>
+                </div>
+            </div>
+        </div>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
+      </body>
+</html>
